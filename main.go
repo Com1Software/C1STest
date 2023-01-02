@@ -1,7 +1,7 @@
 package main
 
 import (
-
+	"github.com/Com1Software/C1S"
 	"fmt"
 	"os"
 	"runtime"
@@ -22,7 +22,7 @@ func main() {
 	//-------------------------------------------------------------
 	case len(os.Args) == 2:
 	   fmt.Printf("cmd %s\n",os.Args[1])
-	   // }else{
+	   c1s.Cmd(os.Args[1])
 	fmt.Println("Not")
 
 		//}
