@@ -4,7 +4,6 @@ import (
 
 	"fmt"
 	"os"
-	"comone/run"
 	"runtime"
 	term "github.com/nsf/termbox-go"
 )
@@ -22,13 +21,13 @@ func main() {
 	switch {
 	//-------------------------------------------------------------
 	case len(os.Args) == 2:
-	    if run.CheckForFile(os.Args[1]){
-			 fmt.Println("Found")
-			 run.Run(os.Args[1])
-	     }else{
+	  //  if run.CheckForFile(os.Args[1]){
+		//	 fmt.Println("Found")
+		//	 run.Run(os.Args[1])
+	   // }else{
 	fmt.Println("Not")
 
-		}
+		//}
 		//-------------------------------------------------------------
 	default:
 		cmd := ""
