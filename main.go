@@ -21,9 +21,7 @@ func main() {
 	switch {
 	//-------------------------------------------------------------
 	case len(os.Args) == 2:
-	  //  if run.CheckForFile(os.Args[1]){
-		//	 fmt.Println("Found")
-		//	 run.Run(os.Args[1])
+	   fmt.Printf("cmd %s\n",os.Args[1])
 	   // }else{
 	fmt.Println("Not")
 
